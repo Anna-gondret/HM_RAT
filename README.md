@@ -53,16 +53,26 @@ _**Event detection:**_
 
 _**Installation and environment:**_
 
+to work with spikeinterface, you need to work in an environment where are installed all the elements you will need for the treatment of the datas.
+
 On the JAPAN PC, the environment is already installed and named testphy
 
 Create a new environment, Python needs to be >=3.7
+write the command in the Terminal
 
-```conda create --name environmnent```
+```conda create --name environment```
 
 Activate your environment
+
+```conda activate --name environment```
+
 If you want to use spyder
 
 ```conda install spyder```
+
+Then to use spyder, you always have to open it in the environment, so in the terminal by the command:
+
+```spyder```
 
 for spikeinterface installation
 
